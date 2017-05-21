@@ -1,0 +1,53 @@
+#info_nav {
+	display:block;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	width:200px;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+#info_nav ul {
+	margin: 0px;
+	padding: 0px;
+	background-color: lightgray;
+}
+
+#info_nav li {
+	font-size: 10px;
+	padding: 0px 25px 0px 5px;
+	display: inline;
+}
+
+#info_nav li:hover {
+	background-color: darkgray;
+	cursor: pointer;
+}
+
+#info_bodyContainer {
+	display:block;
+	position: relative;
+	width:200px;
+	padding: 0px;
+	font-size: 12px;
+	overflow: hidden;
+	height: 75px;
+}
+
+#info_body {
+	position:relative;
+	top:0px;
+}
+
+#info_body p {
+	margin: 0px;
+	
+}
+
+#info_body div {
+	float: left;
+	padding-top:0px;
+	margin-top:0px;
+	margin-right: 10px;
+}
